@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', 'Arial';
+    background-color: #D4240D;
+}
+nav {
+    height: 15vh;
+    background-color: #FFA000;
+    display: flex;
+    align-items: center;
+    /*position: sticky;*/
+    top: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    width: fit-content;
+}
+ul>li {
+    margin-right: 10rem;
+    text-align: center;
+}
+a {
+    color: black;
+    padding: 1rem;
+}
+
+#filho_01:hover {
+    background-color: #206ABA;
+    color: white;
+   
+    border-radius: 15px;
+}
+
+#filho_02:hover {
+    background-color: #206ABA;
+    color: white;
+    border-radius: 15px;
+}
+#filho_03:hover {
+    background-color: #206ABA;
+    color: white;
+    border-radius: 15px;
+}
+#logo {
+    width: 250px;
+    margin-right: 5rem;
+}
+#sobre {
+    color: white;
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto01 > p{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    padding-right: 5px;
+}
+#imagem_01 {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px black;
+}
+
+.texto01 {
+    width: 50vw;
+}
+
+#canjiqueiros {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#canjiqueiros > h1 {
+    margin-bottom: 80px;
+    color: white;
+    font-size: 2rem;
+}
+.familia {
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px black;
+
+}
+.familia:hover {
+    transform: scale(1.5);
+    transition: 0.25s;
+
+}
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15rem;
+    row-gap: 5rem;
+    justify-content: center;
+}
+
+figcaption {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    word-break: normal;
+}
+
